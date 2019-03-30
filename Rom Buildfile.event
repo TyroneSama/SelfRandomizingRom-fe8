@@ -96,8 +96,8 @@
     ORG $9F02C; BL(NameStringWrapper)
     
     //show tactician name at world map
-    ORG $BE932; BL(TactNameStringWrapper)
-    ORG $C0AAC; BL(TactNameStringWrapper)
+    //ORG $BE932; BL(TactNameStringWrapper)
+    //ORG $C0AAC; BL(TactNameStringWrapper)
 
     ORG $839a8; BL(NewCheckCHES)
     SHORT 0 0 0 0 0 0 0 0 //skipping rest of thing
